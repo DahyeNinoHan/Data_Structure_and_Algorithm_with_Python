@@ -1,28 +1,31 @@
-# Data_Structure_and_Algorithm_with_Python
+# Data Structure and Algorithm with Python
 
+## 1. List (Array)
 
-1. List (Array)
+### 1.1 Theoretical Learning
 
-  1) Theorectical Learning
+### 1.2 Implementation
 
-  2) Implementation
+### 1.3 Example Problem Solving
 
-  3) Example Problem Solving 
-     a. Two Sum
-        LeetCode: https://leetcode.com/problems/two-sum/description/
-        MySolution: 
+- **Two Sum**  
+  LeetCode: [https://leetcode.com/problems/two-sum/description/](https://leetcode.com/problems/two-sum/description/)  
+  MySolution: 
 
+## 2. Linked List
 
-2. Linked List
+- Theoretical Learning
+- Implementation
+- Example Problem Solving
 
+## 3. Stack & Queue
 
-3. Stack & Queue
+- Theoretical Learning
+- Implementation
+- Example Problem Solving
 
+## 4. Hash Map
 
-4. Hash Map
-
-
-5. Tree
-
-
-6. Graph
+- Theoretical Learning
+- Implementation
+- Example Problem Solving
