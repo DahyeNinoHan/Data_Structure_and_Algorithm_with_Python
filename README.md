@@ -4,8 +4,8 @@
 
 ### 1.1 Example Problem Solving
 
-- Two Sum**
-- Set Matrix Zeroes**
+- Two Sum
+- Set Matrix Zeroes
 
 ## 2. Linked List
 
