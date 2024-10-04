@@ -1,0 +1,53 @@
+Problem: Set Matrix Zeroes
+Problem Statement:
+Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0. You must do this operation in place.
+
+
+
+Approach
+Key Idea:
+First, I identified which rows and columns contain 0 values,
+then updated the respective rows and columns to be entirely 0.
+Steps:
+Initialize two arrays: one to track which rows should be set to 0 (row array) and another to track which columns should be set to 0 (col array).
+Traverse through the matrix to mark the rows and columns that contain 0 by setting corresponding elements in row and col arrays.
+Traverse the matrix again and update the elements to 0 if either the row or column for that element is marked.
+
+
+
+
+Code Implementation:
+class Solution:
+    def setZeroes(self, matrix):  # n과 m을 제거
+        n = len(matrix) 
+        m = len(matrix[0])  # the number of columns
+        row = [0] * n  # row array
+        col = [0] * m  # col array
+
+        # Traverse the matrix:
+        for i in range(n):
+            for j in range(m):
+                if matrix[i][j] == 0:
+                    # mark ith index of row with 1:
+                    row[i] = 1
+                    # mark jth index of col with 1:
+                    col[j] = 1
+
+        # Finally, mark all (i, j) as 0
+        # if row[i] or col[j] is marked with 1.
+        for i in range(n):
+            for j in range(m):
+                if row[i] or col[j]:
+                    matrix[i][j] = 0
+
+        return matrix
+
+
+if __name__ == "__main__":
+    matrix = [[1, 1, 1], [1, 0, 1], [1, 1, 1]]
+
+    # Solution 클래스의 인스턴스를 생성하고 setZeroes 메서드 호출
+    solution = Solution()
+    ans = solution.setZeroes(matrix)
+
+    print(matrix)
