@@ -2,15 +2,10 @@
 
 ## 1. List (Array)
 
-### 1.1 Theoretical Learning
+### 1.1 Example Problem Solving
 
-### 1.2 Implementation
-
-### 1.3 Example Problem Solving
-
-- **Two Sum**  
-  LeetCode: [https://leetcode.com/problems/two-sum/description/](https://leetcode.com/problems/two-sum/description/)  
-  MySolution: 
+- **Two Sum**
+- **Set Matrix Zeroes**
 
 ## 2. Linked List
 
